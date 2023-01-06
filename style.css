@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header style */
+
+.header{
+    background-image: url('images/donation6.jpg'), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.donate{
+    text-align: center;
+    padding: 50px 370px;
+    margin: 30px;
+    padding-top: 150px;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+header p{
+    color: white;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(252, 47, 47);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+/* donat today style */
+.today{
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px 400px;
+}
+.today p{
+    color: rgb(27, 27, 27);
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    padding: 30px;
+    color: rgb(68, 61, 61);
+}
+li:hover{
+    background-color: rgb(245, 192, 233);
+    border: 2px solid rgb(252, 47, 47);
+    border-radius: 5px;
+}
+.other{
+    padding-bottom: 10px;
+}
+#btn{
+    padding-top: 20px;
+}
+/* donate plan */
+.donate-plan{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.donate-plan p{
+    color: rgb(27, 27, 27);
+    padding: 0 380px;
+}
+.plan{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+/* card style */
+.card{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
+    justify-content: center;
+    height: 300px;
+    width: 750px;
+}
+.food{
+    padding-left: 10px;
+    margin-right: 25px;
+    background-color: rgb(180, 252, 228);
+}
+.shelter{
+    padding-left: 10px;
+    margin-right: 25px;
+    background-color: rgb(252, 179, 230);
+}
+.education{
+    background-color: rgb(248, 162, 105);
+    padding-left: 10px;
+}
+.card img{
+    margin-top: 30px;
+}
+.card h3, p{
+    margin-top: 15px;
+}
+/* donation style */
+.donation{
+    display: flex;
+    margin-top: 80px;
+}
+.live{
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 20px 60px;
+}
+.donation img{
+    border-radius: 5px;
+    height: 360px;
+    width: 400px;
+}
+.photo-2{
+    margin-right: 150px;
+}
+#wow{
+    margin-top: 20px;
+}
+.photo-3{
+    margin-left: 200px;
+}
+#owesome{
+    margin-top: 20px;
+}.survive{
+    margin-top: 50px;
+    margin-right: 150px;
+    margin: 50px 50px 0 50px;
+    padding: 20px 100px;
+}
+/* updates style */
+.update{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subscribe{
+    
+    background-color: rgb(250, 189, 240);
+    width: 50%;
+    height: 70px;
+    margin: auto;
+    padding: 45px;
+}
+#tom{
+    background-color: rgb(161, 156, 156);
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 20px;
+}
+.text{
+    padding: 10px 350px;
+    margin-bottom: 40px;
+}
+/* humble */
+.humble{
+    background-color: rgb(3, 1, 20);
+    height: 150px;
+}
+.last{
+    text-align: center;
+    padding: 20px;
+}
+.last p{
+    color: white;
+    
+}
+.last h2{
+    color: rgb(209, 38, 81);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
